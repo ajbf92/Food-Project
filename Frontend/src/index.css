@@ -1,0 +1,244 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&display=swap');
+
+
+/* Main Styling */
+* {
+  font-family: 'Klee One', cursive;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* Main Styling End */
+
+
+/* NotFound.js Styling  */
+.not-found {
+  height: calc(100vh - 56px);
+}
+/* NotFound.js Styling End */
+
+/* About.js Styling */
+.about-header {
+  padding-right: 40%;
+}
+
+.about-image {
+  display: flex;
+}
+
+.about-us .card-group {
+  margin: auto;
+  width: 70%;
+  padding-bottom: 13%;
+}
+
+ul li {
+  list-style: none;
+  float: left;
+  padding-left: 0;
+  margin: 10px;
+}
+
+.about-description {
+  padding: 5%;
+}
+
+.picture-about-size {
+  height: 100%;
+}
+
+/* About.js Styling End */
+
+
+
+/* callingCard.js Styling End */
+.container-spacing {
+  margin-top: 25px;
+}
+
+.scrollable {
+  overflow-y: auto;
+  max-height: 300px;
+}
+
+.card-box {
+  width: 600px;
+  height: auto;
+  margin-right: 20%;
+  display: flex;
+}
+
+.card__space {
+  margin-bottom: 30px;
+}
+
+/* callingCard.js Styling End */
+
+
+
+/* Navigation.js Styling */
+.nav__bgColor {
+  background-color: rgb(17, 190, 190);
+}
+
+/* Home.js */
+.card-spacing {
+  margin: 1.5%;
+  border-radius: 10px 10px 10px 10px !important;
+}
+
+.image-border {
+  border-radius: 10px 10px 10px 10px !important;
+}
+
+.card-box {
+  border: #75c9b7 solid 3px !important;
+  border-radius: 15px !important;
+}
+
+
+.grow:hover { 
+  transform: scale(1.1); 
+  cursor: pointer;
+}
+
+.grow { 
+  transition: all .2s ease-in-out; 
+}
+
+.sign-up-btn {
+  background-color: #75c9b7 !important;
+}
+
+/* Work on the spacing when growing on mobile devices */
+
+/* Navigation.js Styling End */
+
+
+/* Site Logo Styling */
+.site-logo {
+  height: 45px;
+}
+
+.site-logo:hover {
+  transform: scale(1.5);
+  transition: .2s ease-in-out;
+}
+/* Logo Styling End */
+
+
+
+/* Profile picture styling */
+.profile-picture {
+  border-radius: 50%;
+}
+
+/* Navbar Styling */
+.nav-bar {
+  background-color: #75c9b7 !important;
+}
+
+.navbar-link:hover {
+  background-color: aquamarine !important;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* Site logo */
+.site-logo {
+  height: 40px;
+}
+
+/* SlideShow.js */
+.img__carousel {
+  max-height: 500px;
+  width: 100%;
+
+}
+
+
+
+/* Profile.js */
+
+
+/* Footer Styling */
+.main-footer {
+  width: 100vw;
+}
+
+
+
+
+/* Main Styling */
+.main-body {
+  background-color: #faedb9;
+}
+
+
+
+/* Search bar Styling */
+.search-form {
+  align-items: center;
+}
+
+.random-btn {
+  background-color: #75c9b7 !important;
+}
+
+
+.card-btn {
+  background-color: #75c9b7 !important;
+}
+
+
+/* Login Page Styling */
+.log-in-container {
+  margin-top: 30px;
+  border: #75c9b7 solid 3px;
+  padding-top: 30px;
+  border-radius: 10px;
+  margin-bottom: 500px;
+}
+
+.sign-in-header {
+  margin-top: 10%;
+}
+
+.submit-btn {
+  margin-top: 2%;
+  background-color: #75c9b7 !important;
+  color: black !important;
+  margin-bottom: 30px;
+}
+
+
+/* Login Page Styling */
+.email-login-input {
+  margin-bottom: 20px !important;
+  max-width: 400px;
+}
+
+.password-login-input {
+  margin-bottom: 20px !important;
+  max-width: 400px;
+}
